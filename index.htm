@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="foodlogo.png">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#"><li>HOME</li></a>
+                    <a href="#"><li>ABOUT</li></a>
+                    <a href="#"><li>RECIPE</li></a>
+                </ul>
+                <button type="button" class="btn" onclick="signUp()" >Sign up</button>
+                <button type="button" class="btn" onclick="logInForm()">Login</button>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>There is no <span>love sincerer<br>
+                than the love</span> of food<span>.</span></h1>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icons">
+                <i class="fa fa-list-ul"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="social-icons">
+                <i class="fa fa-facebook" onclick="fb()"></i>
+                <i class="fa fa-instagram" onclick="insta()"></i>
+                <i class="fa fa-twitter" onclick="twitter()"></i>
+                <i class="fa fa-pinterest" onclick="pinterest()"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
